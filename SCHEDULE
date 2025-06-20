@@ -1,1 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        background-color:lightgrey ;
+        height: 1250px;
+    }
+    .container2{
+        background-color: rgb(207, 235, 235);
+        height: 100px;
+        width: auto;
+    }
+</style>
+<body>
+    <h1><pre>                               EXAMPLE</pre></h1>
+    <hr>
+    <h3><pre>                                               PRINT AS MANY AS YOU NEED</pre></h3>
+    <div class="container">
+        <h2><pre>      WEEKLY PLAN                                                  DATE: 20-27 APRIL</pre></h2>  
+        <h2><b><PRE>    FOCUS/INSPIRATION                                            SCHEDULE</PRE></b></h2>
+        <hr>
+        <cite><h4><pre>Go to bed everyday at 10 pm                                                                      -Work on the project </pre></h4></cite>
+       <cite><h4><pre>Do the work!                                                                        <b>MONDAY:-</b>     -Go to gym<br>                                                                                                 -Call refrigerator repare<br>                                                                                                 -Buy groceries and cook food</pre></h4></cite>
+        <hr>
+        <h2><pre>TOP THREE TASKS</pre></h2>
+        <HR>
+            <ul>
+                <LI><h4><pre>Finish food delivery website                                                                -work on project</pre></LI></h4>
+                <LI><h4><pre>Go to the gym five time                                                      <B>TUESDAY:-</B>     -go to the gym</pre></LI></h4>
+                <LI><h4><pre>Call refigerator repair                                                                    -Buy mom a birthday gift<br>                                                                                           -Meet Ana for coffee</pre></LI></h4>
+                
 
+                </ul> 
+                <hr>
+                <h2>TO DO</h2>
+                <HR>
+                    <UL>
+                        <LI><H4><PRE>Clean house and car                                                                        -work on project  </PRE></H4></LI>
+                        <LI><H4><PRE>Buy gloceries                                                                <b>wedneday:-   </b> -Go to gym </PRE></H4></LI> 
+                        <LI><H4><PRE>iron my clothes                                                                           -Buy headphoes</PRE></H4></LI>                   
+                        <LI><H4><PRE>call family</PRE></H4></LI>           <hr>
+                        <LI><H4><PRE>pay taxes </PRE></H4></LI>                   
+                        <LI><H4><PRE>Take my brother from airport                                                               -Work on project</PRE></H4></LI>                   
+                       <LI><H4><PRE>Buy mom buy birthday gift                                                     <b>THURSDAY:-   </b> -Go to gym  </PRE></H4></LI> 
+                       <LI><H4><PRE>buy printer and inkjet                                                                       -Take brother from airport</PRE></H4></LI>                  
+
+                    </UL>
+                    <hr>
+                    <ul>
+                    <h2><pre>HABITS</pre></h2>
+                    <li><h4><pre>Go to bed by 10                                                                              -Finish project</pre></h4></li>
+                    <li><h4><pre>work up 6                                                                       <b>FRIDAY:-   </b> -Go to gym</pre></h4></li>
+                    <li><h4><pre>eat healthy                                                                                   -Pay texes</pre></h4></li>
+                    <li><h4><pre>gym                                                                              <b>SUNDAY:-</b>Day off😁</pre></h4></li>
+
+                </ul>
+                <hr>
+<h2><pre>WHAT WENT WELL THIE WEEK?                                     HOW CAN NEXT WEEK BE BETTER? </pre></h2>
+                    
+
+    </div>
+    <div class="container2">
+       <H3><pre>First week that i accomplish everything <BR>on my weekly planar. Its feel great!                           I need to try  need week t accomplish everything again.<BR>                                                                                 Consistency is KING!</pre> </H3>
+    </div>
+
+</body>
+</html>
