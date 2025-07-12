@@ -1,0 +1,83 @@
+/* /* body{ */
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+}
+.container{
+    background-color: chocolate;
+    padding: 80px;
+    border-radius: 8px;
+    width: 500px;
+    text-align: center;
+}
+input{
+    width: 80%;
+    padding: 20px;
+    margin: 10px;
+    border: 50px black;
+    border-radius: 5px;
+    font-size: large;
+
+}
+button{
+    width: 90%;
+    padding: 20px;
+    background-color:yellow ;
+    border:1px black ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: crimson;
+}
+.error{
+    color: red;
+    display: block;
+    text-align: left;
+    font-size: 12px;
+} */
+ .container{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    animation-name: example;
+    animation-duration: 4s;
+    position: relative;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+} 
+ @keyframes example{ 
+     from {background-color: brown;}
+to{background-color: blueviolet;} 
+0% {background-color: red;}
+25% {background-color: blue;}
+50% {background-color: chocolate;}
+100% {background-color: chartreuse;} 
+ 0%  {background-color: brown; left: 0px; top: 0px;}
+25% { background-color: blue; left: 200px; top: 0px;}
+50% { background-color: chocolate; left: 200px; top: 200px;}
+75% { background-color: chartreuse; left: 0px; top: 200px;}
+100% { background-color: blueviolet;left: 0px; top: 0px;} 
+ from {top: 0px;}
+to{ top: 200px; background-color: blue;}
+} 
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    animation-name: malika;
+    animation-duration: 4s;
+    position: relative;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    margin-top: 300px;
+}
+@keyframes mal{
+     from {background-color: brown;}
+to{background-color: blueviolet;}
+}
