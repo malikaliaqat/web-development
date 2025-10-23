@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  .subscribe_button {
+    background-color: rgb(71, 165, 42);
+    color: white;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-size: large;
+    height: 45px;
+    margin: 10px 50px   ;
+    font-family:monospace;
+    width: 150px;
+    cursor:pointer;
+    border-style: solid;
+    box-shadow: 4px 4px 10px red;
+    border-color: blue;
+     }
+     
+     .join_button{
+    background-color: rgb(10, 161, 141);
+    color: white;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-size: large;
+    height: 45px;
+    margin: 10px 5px   ;
+    font-family:monospace;
+    width: 150px;
+    border-style: solid;
+    box-shadow: 5px 6px 5px green;
+    border-color: blueviolet;
+    cursor:pointer;
+     }
+     .uber_button{
+      background-color: black;
+     color: aliceblue;
+     margin:45px ;
+     /* border: 10px solid purple; */
+        border-style: none;
+
+   height : 45px;
+   font-size: 20px;
+   padding: 20px 34px 40px 30px;
+   cursor: pointer;
+      }
+    .uber_button:hover {
+  background-color: gray; 
+   transition: background-color 0.8s ease; 
+   transform: scale(1.1);    
+
+}
+      .Amazon_button{
+        background-color: rgb(255, 216, 20);
+        border-radius: 50px ;
+        /* border : 10px solid orangered; */
+        border-style: none;
+        font-size:20px;
+        font-weight: bold;
+        padding:10px;
+        width: 200px;
+   cursor: pointer;
+      }
+        .Amazon_button:hover {
+  background-color: olive; 
+   transition: background-color 0.8s ease; 
+   transform: scale(1.1);     
+   box-shadow: 5px 5px 10px rgba(224, 22, 22, 1.15);
+
+
+}
+      .Github_button {
+        background-color: rgb(46,164,79);
+        color:white;
+        border-radius: 5px;
+        border-style: none;
+       font-size: large;
+       font-weight: bold;
+       padding: 10px 20px 10px 20px ;   
+      width:120px;
+       height: fit-content;
+       margin-left: 50px;
+   cursor: pointer;
+
+    box-shadow: 0px 0px 25px 2px rgb(58, 250, 32);
+ 
+   }
+   .Github_button:hover {
+  background-color: green ; 
+   transition: background-color 0.8s ease; 
+   transform: scale(1.1);    
+ 
+   }
+.Github_button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.6);
+  transform: skewX(-25deg);
+}
+  .Github_button:hover::before {
+  animation: shine 2s forwards;
+}
+
+/* keyframes for shine */
+@keyframes shine {
+  0% { left: -75%; }
+  100% { left: 125%; }
+}
+  .Bootstrap{
+    background-color: purple;
+    padding: 20px;
+    width: 300px;
+    height: 100x;
+    margin-left: 50px;
+    border-radius: 10px;
+  }
+  .Bootstrap_button{
+    background-color: palevioletred;
+    color: white;
+    border-radius: 50px;
+    border-style: none;
+    /* font-size: ; */
+    font-weight: bold;
+    padding: 10px 20px 10px 20px ;   
+   width:120px;
+    height: fit-content;
+    margin-left: 20px;
+  }
+  .Bootstrap_button:hover{
+    background-color: plum;
+    transition: background-color 0.2s ease-in-out ;
+    transform: scale(1.1);
+  }
+ 
+  .Bootstrap_btn{
+      background-color: palevioletred;
+    color: white;
+    border-radius: 50px;
+    border-style: none;
+    /* font-size: ; */
+    font-weight: bold;
+    padding: 10px 20px 10px 20px ;   
+   width:120px;
+    height: fit-content;
+    margin-left: 20px;
+  }
+  .Bootstrap_btn:hover{
+      background-color: plum;
+    transition: background-color 0.2s ease-in-out ;
+    transform: scale(1.1);
+  }
+  .linkedin{
+    background-color: yellow;
+    padding: 20px;
+    width: 350px;
+    height: 100x;
+    margin-left: 50px;
+    border-radius: 10px;
+  }
+  .link_button{
+    background-color: orangered;
+    color: white;
+    border-radius: 50px;
+    border-style: none;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px ;   
+   width:200px;
+    height: fit-content;
+    margin-left: 10px;
+  }
+   .link_button:hover{
+    background-color: olive;
+    transition: background-color 0.2s ease-in-out ;
+    transform: scale(1.1);
+  }
+  .link_btn{
+          background-color: white;
+    color: orangered;
+    border-radius: 50px;
+    border-style: none;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px ;   
+    width:75px;
+    height: fit-content;
+    margin-left: 20px;
+  }
+    .link_btn:hover{
+    background-color:orangered;
+    color:white ;
+    transition: background-color 2s ease-in-out ;
+    transform: scale(1.1);
+  }
+  .amazon{
+    background-color: aqua;
+    padding: 20px;
+    width: 350px;
+    height: 100x;
+    margin-left: 50px;
+    border-radius: 10px;
+  }
+.cart_button{
+   background-color: rgb(255,216,20);
+    color: black;
+    border-radius: 50px;
+    border-style: none;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px ;   
+    width:150px;
+    height: fit-content;
+    /* margin-left: 1px; */
+    cursor: pointer;
+
+}
+.cart_button:hover{
+  background-color: olive;
+
+  /* transition: background-color 0.8s ease-in-out; */
+  opacity:0.8;
+}
+.cart_button:active{
+  background-color: red;
+}
+.buy_button{
+  background-color: rgb(255,164,28);
+    color: black;
+    border-radius: 50px;
+    border-style: none;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px ;   
+    width:150px;
+    height: fit-content;
+    margin-left: 5px;
+}
+</style>
+<body>
+  <button class="subscribe_button">
+    SUBSCRIBE
+  </button>
+  <button class="join_button">
+    join
+    </button>
+ <br><br><br>
+  <button class="uber_button">
+    Request now
+    </button>
+  <button class="Amazon_button">
+    Add to cart
+    </button>
+    <br><br>
+    <button class ="Github_button">
+    Sign up
+  </button>
+  <br><br><br>
+  <div class="Bootstrap">
+  <button class="Bootstrap_button">
+    Get started
+  </button>
+  <button class="Bootstrap_btn">
+Download
+  </button>
+  </div>
+  <br><br>
+  <div class="linkedin">
+    <button class="link_button">
+      Apply to this website
+    </button>
+    <button class="link_btn">
+      save
+    </button>
+  </div>
+<br>
+<br>
+<br>
+  <div class="amazon">
+    <a href="https://www.google.com/search?gs_ssp=eJzj4tDP1TfITc9OV2A0YHRg8GJLzE2sys8DAELoBhw&q=amazon&rlz=1C1FHFK_enPK1131PK1132&oq=am&gs_lcrp=EgZjaHJvbWUqEwgBEC4YgwEYxwEYsQMY0QMYgAQyBggAEEUYOTITCAEQLhiDARjHARixAxjRAxiABDINCAIQABiDARixAxiABDIKCAMQABixAxiABDITCAQQLhiDARjHARixAxjRAxiABDIGCAUQRRg9MgYIBhBFGD0yBggHEEUYPdIBCDIwNDhqMGo3qAIIsAIB8QWcXw_yZB8xgw&sourceid=chrome&ie=UTF-8"
+    target="_blank">Back to Amazon</a>
+    <h1>Nike Black Running Shoes</h1>
+    <br>
+    <h2  style="color: green;">$39- in Stock</h2>
+    <h3>Free delivery tomorrow</h3>
+    <button class="cart_button">
+      Add to cart
+    </button>
+    <button class="buy_button">
+      Buy now
+    </button>
+  </div>
+</body>
+</html>
