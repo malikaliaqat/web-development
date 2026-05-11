@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    /* align-items: center;  */
+    background-color: palevioletred; 
+    padding: 15px 20px; 
+}
+
+.logo {
+    color: white; 
+    font-size: 24px; 
+    
+}
+
+.nav-links {
+    list-style: none; 
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px; 
+    padding-right: 40px;
+    padding-top: 10px;
+}
+
+.nav-links a {
+    text-decoration: none; 
+    color: white; 
+}
+
+.nav-links a:hover {
+    color: black; 
+}
