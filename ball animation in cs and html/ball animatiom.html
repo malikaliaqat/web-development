@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+     <link rel="stylesheet" href="css/style.css">
+    <style>
+     
+    .circle 
+    {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      position: relative;
+      animation-name: ani;
+      animation-duration: 5s;
+      animation-timing-function: cubic-bezier(.97,.2,.83,.67)
+
+    }
+    @keyframes ani {
+      0%
+      {
+        top:0;
+        left:0;
+        background-color: yellow;
+      }
+      25%
+      {
+        top:0;
+        left:200px;
+        background-color: green;
+      }
+      50%
+      {
+        left: 200px;
+        top:200px;
+        background-color: orange;
+      }
+      75%
+      {
+        left:0;
+        top:200px;
+        background-color: red;
+      }
+      100%
+      {
+        left: 0;
+        top:0;
+        background-color: brown;
+      }
+      
+    }
+    </style>
+</head>
+<body>
+<div class="circle">
+
+</div>
+</body>
+</html>
