@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #282c34;
+}
+
+.container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+
+.box {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    transition: background-color 0.5s, box-shadow 0.5s;
+}
+
+.box1 {
+    background-color: red;
+}
+
+.box2 {
+    background-color: green;
+}
+
+.box3 {
+    background-color: blue;
+}
+
+.box4 {
+    background-color: yellow;
+}
+
+.glow {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
